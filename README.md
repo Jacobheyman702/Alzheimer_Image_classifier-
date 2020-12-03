@@ -24,11 +24,20 @@
 
 
 ## Bussiness Problem 
-    - 
+    - Current methods for diagnosing Alzheimers disease in patients displaying early signs of dementia are expensive, risky and require expert analysis.  Recent studies have shown that using MRI imaging to visualize neurodegeneration can be an alternative method of diagnosis.  While this method decreases expense and risk, MRI imaging for tissue atrophy still requires visual analysis, resulting in potential human error.  Using machine learning algorithms we plan on creating a classifying model that can be used to classify the progression of demensia in AD patients and be used as a primary diagnostic tool for further medical intervention.  In this project we aim to answer the following questions:
+        - What are some of the distinct features of the four classes of dementia
+        - Can we create a model that accuratly classifies AD MRI images
+        - What model and method best reduces the number of false positive when classifying images
 
 
 ## Data
-
+    - The data was collected from a kaggle database
+    - https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images/discussion/156943
+    - The dataset consists of one train and one test folder, each with images labled with four different stages of AD symptom progression
+        - NonDemented
+        - Very Mild Demented
+        - Mild Demented
+        - Moderate Demented
 
 
 
@@ -60,7 +69,9 @@
  
 
 ## For More Information
-
+    - Tiwari, Sneham et al. “Alzheimer's disease: pathogenesis, diagnostics, and therapeutics.” International journal of nanomedicine vol. 14 5541-5554. 19 Jul. 2019, doi:10.2147/IJN.S200490
+    - Johnson, Keith A et al. “Brain imaging in Alzheimer disease.” Cold Spring Harbor perspectives in medicine vol. 2,4 (2012): a006213. doi:10.1101/cshperspect.a006213
+    - Scheltens, Philip. “Imaging in Alzheimer's disease.” Dialogues in clinical neuroscience vol. 11,2 (2009): 191-9. doi:10.31887/DCNS.2009.11.2/pscheltens
 
 
 
